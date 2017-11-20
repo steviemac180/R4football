@@ -3,6 +3,7 @@ title = "R4football"
 copyright = "Copyright &copy; 2017 - Stephen MacDonald"
 canonifyurls = true
 theme = "hugo-xmin-master"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 paginate = 10
 
