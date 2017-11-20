@@ -1,0 +1,785 @@
+]0;~/Desktop/R4football[?1034hstephens-MBP:R4football macdonas$ [Kstephens-MBP:R4football macdonas$ ls
+R4football.Rproj	data			static
+archetypes		index.Rmd		themes
+config.toml		layouts
+content			public
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ git init
+Initialized empty Git repository in /Users/macdonas/Desktop/R4football/.git/
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.DS_Store[m
+	[31m.Rhistory[m
+	[31m.Rproj.user/[m
+	[31mR4football.Rproj[m
+	[31mconfig.toml[m
+	[31mcontent/[m
+	[31mindex.Rmd[m
+	[31mpublic/[m
+	[31mstatic/[m
+	[31mthemes/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ git add-am.-am
+git: 'add.-am' is not a git command. See 'git --help'.
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ git add.-am[C[1P-am[C[C[C[K[K[K.
+git: 'add.' is not a git command. See 'git --help'.
+
+Did you mean this?
+	add
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ git add.[K
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ git add .
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ git add .[K.-am[1Pstatus
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	[32mnew file:   .DS_Store[m
+	[32mnew file:   .Rhistory[m
+	[32mnew file:   .Rproj.user/84E76051/console06/B143F678[m
+	[32mnew file:   .Rproj.user/84E76051/console06/B143F678.env[m
+	[32mnew file:   .Rproj.user/84E76051/console06/INDEX001[m
+	[32mnew file:   .Rproj.user/84E76051/pcs/files-pane.pper[m
+	[32mnew file:   .Rproj.user/84E76051/pcs/source-pane.pper[m
+	[32mnew file:   .Rproj.user/84E76051/pcs/windowlayoutstate.pper[m
+	[32mnew file:   .Rproj.user/84E76051/pcs/workbench-pane.pper[m
+	[32mnew file:   .Rproj.user/84E76051/persistent-state[m
+	[32mnew file:   .Rproj.user/84E76051/rmd-outputs[m
+	[32mnew file:   .Rproj.user/84E76051/saved_source_markers[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/30706864[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/427B7BEE[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/4FFC9586[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/560A28FA[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/68F2AA82[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/805D4ACF[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/910C5248[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/929D651[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/94DBF34[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/DAB4DA7E[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/E21C66C4[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/F7C20143[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/INDEX[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/58163733[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/58163733-contents[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/85BBD0B1[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/85BBD0B1-contents[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/CA0D198F[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/CA0D198F-contents[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/lock_file[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/84E76051CD22FA3F/chunks.json[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/chunks.json[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/cobakscw9ryr5/000002.csv[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/cobakscw9ryr5/000003.error[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/cqloxzfecztj8/000002.csv[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/cqloxzfecztj8/000003.error[m
+	[32mnew file:   .Rproj.user/shared/notebooks/patch-chunk-names[m
+	[32mnew file:   .Rproj.user/shared/notebooks/paths[m
+	[32mnew file:   R4football.Rproj[m
+	[32mnew file:   config.toml[m
+	[32mnew file:   content/.DS_Store[m
+	[32mnew file:   content/post/2017-11-20-england-premier-2016-17.Rmd[m
+	[32mnew file:   content/post/2017-11-20-england-premier-2016-17.html[m
+	[32mnew file:   content/post/E0.csv[m
+	[32mnew file:   index.Rmd[m
+	[32mnew file:   public/404.html[m
+	[32mnew file:   public/about/index.html[m
+	[32mnew file:   public/categories/development/index.html[m
+	[32mnew file:   public/categories/development/index.xml[m
+	[32mnew file:   public/categories/development/page/1/index.html[m
+	[32mnew file:   public/categories/england/index.html[m
+	[32mnew file:   public/categories/england/index.xml[m
+	[32mnew file:   public/categories/england/page/1/index.html[m
+	[32mnew file:   public/categories/football/index.html[m
+	[32mnew file:   public/categories/football/index.xml[m
+	[32mnew file:   public/categories/football/page/1/index.html[m
+	[32mnew file:   public/categories/golang/index.html[m
+	[32mnew file:   public/categories/golang/index.xml[m
+	[32mnew file:   public/categories/golang/page/1/index.html[m
+	[32mnew file:   public/categories/index.html[m
+	[32mnew file:   public/categories/index.xml[m
+	[32mnew file:   public/categories/page/1/index.html[m
+	[32mnew file:   public/categories/page/2/index.html[m
+	[32mnew file:   public/categories/premier-league/index.html[m
+	[32mnew file:   public/categories/premier-league/index.xml[m
+	[32mnew file:   public/categories/premier-league/page/1/index.html[m
+	[32mnew file:   public/css/styles.css[m
+	[32mnew file:   public/images/.gitkeep[m
+	[32mnew file:   public/index.html[m
+	[32mnew file:   public/index.xml[m
+	[32mnew file:   public/js/scripts.js[m
+	[32mnew file:   public/post/2017-11-20-cars.Rmd[m
+	[32mnew file:   public/post/2017-11-20-england-premier-2016-17.Rmd[m
+	[32mnew file:   public/post/2017-11-20-stephen-testing.Rmd[m
+	[32mnew file:   public/post/2017-11-20-testing-posting.Rmd[m
+	[32mnew file:   public/post/E0.csv[m
+	[32mnew file:   public/post/cars/index.html[m
+	[32mnew file:   public/post/england-premier-2016-17/index.html[m
+	[32mnew file:   public/post/index.html[m
+	[32mnew file:   public/post/index.xml[m
+	[32mnew file:   public/post/page/1/index.html[m
+	[32mnew file:   public/post/page/2/index.html[m
+	[32mnew file:   public/post/stephen-testing/index.html[m
+	[32mnew file:   public/post/testing-posting/index.html[m
+	[32mnew file:   public/posts/creating-a-new-theme/index.html[m
+	[32mnew file:   public/posts/goisforlovers/index.html[m
+	[32mnew file:   public/posts/hugoisforlovers/index.html[m
+	[32mnew file:   public/posts/image-content/index.html[m
+	[32mnew file:   public/posts/index.html[m
+	[32mnew file:   public/posts/index.xml[m
+	[32mnew file:   public/posts/migrate-from-jekyll/index.html[m
+	[32mnew file:   public/posts/page/1/index.html[m
+	[32mnew file:   public/posts/page/2/index.html[m
+	[32mnew file:   public/posts/page/3/index.html[m
+	[32mnew file:   public/posts/stephen.Rmd[m
+	[32mnew file:   public/posts/stephen/index.html[m
+	[32mnew file:   public/posts/stephen_files/figure-html/pressure-1.png[m
+	[32mnew file:   public/posts/style-guide/index.html[m
+	[32mnew file:   public/sitemap.xml[m
+	[32mnew file:   public/stephen.Rmd[m
+	[32mnew file:   public/stephen/index.html[m
+	[32mnew file:   public/stephen_files/figure-html/pressure-1.png[m
+	[32mnew file:   public/tags/development/index.html[m
+	[32mnew file:   public/tags/development/index.xml[m
+	[32mnew file:   public/tags/development/page/1/index.html[m
+	[32mnew file:   public/tags/exploratory-analysis/index.html[m
+	[32mnew file:   public/tags/exploratory-analysis/index.xml[m
+	[32mnew file:   public/tags/exploratory-analysis/page/1/index.html[m
+	[32mnew file:   public/tags/go/index.html[m
+	[32mnew file:   public/tags/go/index.xml[m
+	[32mnew file:   public/tags/go/page/1/index.html[m
+	[32mnew file:   public/tags/golang/index.html[m
+	[32mnew file:   public/tags/golang/index.xml[m
+	[32mnew file:   public/tags/golang/page/1/index.html[m
+	[32mnew file:   public/tags/hugo/index.html[m
+	[32mnew file:   public/tags/hugo/index.xml[m
+	[32mnew file:   public/tags/hugo/page/1/index.html[m
+	[32mnew file:   public/tags/index.html[m
+	[32mnew file:   public/tags/index.xml[m
+	[32mnew file:   public/tags/page/1/index.html[m
+	[32mnew file:   public/tags/page/2/index.html[m
+	[32mnew file:   public/tags/templates/index.html[m
+	[32mnew file:   public/tags/templates/index.xml[m
+	[32mnew file:   public/tags/templates/page/1/index.html[m
+	[32mnew file:   public/tags/themes/index.html[m
+	[32mnew file:   public/tags/themes/index.xml[m
+	[32mnew file:   public/tags/themes/page/1/index.html[m
+	[32mnew file:   static/images/.gitkeep[m
+	[32mnew file:   static/posts/stephen_files/figure-html/pressure-1.png[m
+	[32mnew file:   static/stephen_files/figure-html/pressure-1.png[m
+	[32mnew file:   themes/hugo-kiera/LICENSE.md[m
+	[32mnew file:   themes/hugo-kiera/README.md[m
+	[32mnew file:   themes/hugo-kiera/archetypes/default.md[m
+	[32mnew file:   themes/hugo-kiera/archetypes/posts.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/config.toml[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/about.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/_index.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/creating-a-new-theme.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/goisforlovers.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/hugoisforlovers.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/image-content.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/migrate-from-jekyll.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/style-guide.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/static/images/.gitkeep[m
+	[32mnew file:   themes/hugo-kiera/images/screenshot.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/float-left.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/float-right.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/full-image.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/main.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/mid.png[m
+	[32mnew file:   themes/hugo-kiera/images/tn.png[m
+	[32mnew file:   themes/hugo-kiera/layouts/404.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/_default/baseof.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/_default/list.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/_default/single.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/_default/terms.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/index.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/aside.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/disqus.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/footer.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/header.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/nav.html[m
+	[32mnew file:   themes/hugo-kiera/static/css/styles.css[m
+	[32mnew file:   themes/hugo-kiera/static/js/scripts.js[m
+	[32mnew file:   themes/hugo-kiera/theme.toml[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/84E76051/console06/B143F678[m
+
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	[32mnew file:   .DS_Store[m
+	[32mnew file:   .Rhistory[m
+	[32mnew file:   .Rproj.user/84E76051/console06/B143F678[m
+	[32mnew file:   .Rproj.user/84E76051/console06/B143F678.env[m
+	[32mnew file:   .Rproj.user/84E76051/console06/INDEX001[m
+	[32mnew file:   .Rproj.user/84E76051/pcs/files-pane.pper[m
+	[32mnew file:   .Rproj.user/84E76051/pcs/source-pane.pper[m
+	[32mnew file:   .Rproj.user/84E76051/pcs/windowlayoutstate.pper[m
+	[32mnew file:   .Rproj.user/84E76051/pcs/workbench-pane.pper[m
+	[32mnew file:   .Rproj.user/84E76051/persistent-state[m
+	[32mnew file:   .Rproj.user/84E76051/rmd-outputs[m
+	[32mnew file:   .Rproj.user/84E76051/saved_source_markers[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/30706864[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/427B7BEE[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/4FFC9586[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/560A28FA[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/68F2AA82[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/805D4ACF[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/910C5248[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/929D651[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/94DBF34[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/DAB4DA7E[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/E21C66C4[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/F7C20143[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/INDEX[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/58163733[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/58163733-contents[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/85BBD0B1[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/85BBD0B1-contents[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/CA0D198F[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/CA0D198F-contents[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/lock_file[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/84E76051CD22FA3F/chunks.json[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/chunks.json[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/cobakscw9ryr5/000002.csv[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/cobakscw9ryr5/000003.error[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/cqloxzfecztj8/000002.csv[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/cqloxzfecztj8/000003.error[m
+	[32mnew file:   .Rproj.user/shared/notebooks/patch-chunk-names[m
+	[32mnew file:   .Rproj.user/shared/notebooks/paths[m
+	[32mnew file:   R4football.Rproj[m
+	[32mnew file:   config.toml[m
+	[32mnew file:   content/.DS_Store[m
+	[32mnew file:   content/post/2017-11-20-england-premier-2016-17.Rmd[m
+	[32mnew file:   content/post/2017-11-20-england-premier-2016-17.html[m
+	[32mnew file:   content/post/E0.csv[m
+	[32mnew file:   index.Rmd[m
+	[32mnew file:   public/404.html[m
+	[32mnew file:   public/about/index.html[m
+	[32mnew file:   public/categories/development/index.html[m
+	[32mnew file:   public/categories/development/index.xml[m
+	[32mnew file:   public/categories/development/page/1/index.html[m
+	[32mnew file:   public/categories/england/index.html[m
+	[32mnew file:   public/categories/england/index.xml[m
+	[32mnew file:   public/categories/england/page/1/index.html[m
+	[32mnew file:   public/categories/football/index.html[m
+	[32mnew file:   public/categories/football/index.xml[m
+	[32mnew file:   public/categories/football/page/1/index.html[m
+	[32mnew file:   public/categories/golang/index.html[m
+	[32mnew file:   public/categories/golang/index.xml[m
+	[32mnew file:   public/categories/golang/page/1/index.html[m
+	[32mnew file:   public/categories/index.html[m
+	[32mnew file:   public/categories/index.xml[m
+	[32mnew file:   public/categories/page/1/index.html[m
+	[32mnew file:   public/categories/page/2/index.html[m
+	[32mnew file:   public/categories/premier-league/index.html[m
+	[32mnew file:   public/categories/premier-league/index.xml[m
+	[32mnew file:   public/categories/premier-league/page/1/index.html[m
+	[32mnew file:   public/css/styles.css[m
+	[32mnew file:   public/images/.gitkeep[m
+	[32mnew file:   public/index.html[m
+	[32mnew file:   public/index.xml[m
+	[32mnew file:   public/js/scripts.js[m
+	[32mnew file:   public/post/2017-11-20-cars.Rmd[m
+	[32mnew file:   public/post/2017-11-20-england-premier-2016-17.Rmd[m
+	[32mnew file:   public/post/2017-11-20-stephen-testing.Rmd[m
+	[32mnew file:   public/post/2017-11-20-testing-posting.Rmd[m
+	[32mnew file:   public/post/E0.csv[m
+	[32mnew file:   public/post/cars/index.html[m
+	[32mnew file:   public/post/england-premier-2016-17/index.html[m
+	[32mnew file:   public/post/index.html[m
+	[32mnew file:   public/post/index.xml[m
+	[32mnew file:   public/post/page/1/index.html[m
+	[32mnew file:   public/post/page/2/index.html[m
+	[32mnew file:   public/post/stephen-testing/index.html[m
+	[32mnew file:   public/post/testing-posting/index.html[m
+	[32mnew file:   public/posts/creating-a-new-theme/index.html[m
+	[32mnew file:   public/posts/goisforlovers/index.html[m
+	[32mnew file:   public/posts/hugoisforlovers/index.html[m
+	[32mnew file:   public/posts/image-content/index.html[m
+	[32mnew file:   public/posts/index.html[m
+	[32mnew file:   public/posts/index.xml[m
+	[32mnew file:   public/posts/migrate-from-jekyll/index.html[m
+	[32mnew file:   public/posts/page/1/index.html[m
+	[32mnew file:   public/posts/page/2/index.html[m
+	[32mnew file:   public/posts/page/3/index.html[m
+	[32mnew file:   public/posts/stephen.Rmd[m
+	[32mnew file:   public/posts/stephen/index.html[m
+	[32mnew file:   public/posts/stephen_files/figure-html/pressure-1.png[m
+	[32mnew file:   public/posts/style-guide/index.html[m
+	[32mnew file:   public/sitemap.xml[m
+	[32mnew file:   public/stephen.Rmd[m
+	[32mnew file:   public/stephen/index.html[m
+	[32mnew file:   public/stephen_files/figure-html/pressure-1.png[m
+	[32mnew file:   public/tags/development/index.html[m
+	[32mnew file:   public/tags/development/index.xml[m
+	[32mnew file:   public/tags/development/page/1/index.html[m
+	[32mnew file:   public/tags/exploratory-analysis/index.html[m
+	[32mnew file:   public/tags/exploratory-analysis/index.xml[m
+	[32mnew file:   public/tags/exploratory-analysis/page/1/index.html[m
+	[32mnew file:   public/tags/go/index.html[m
+	[32mnew file:   public/tags/go/index.xml[m
+	[32mnew file:   public/tags/go/page/1/index.html[m
+	[32mnew file:   public/tags/golang/index.html[m
+	[32mnew file:   public/tags/golang/index.xml[m
+	[32mnew file:   public/tags/golang/page/1/index.html[m
+	[32mnew file:   public/tags/hugo/index.html[m
+	[32mnew file:   public/tags/hugo/index.xml[m
+	[32mnew file:   public/tags/hugo/page/1/index.html[m
+	[32mnew file:   public/tags/index.html[m
+	[32mnew file:   public/tags/index.xml[m
+	[32mnew file:   public/tags/page/1/index.html[m
+	[32mnew file:   public/tags/page/2/index.html[m
+	[32mnew file:   public/tags/templates/index.html[m
+	[32mnew file:   public/tags/templates/index.xml[m
+	[32mnew file:   public/tags/templates/page/1/index.html[m
+	[32mnew file:   public/tags/themes/index.html[m
+	[32mnew file:   public/tags/themes/index.xml[m
+	[32mnew file:   public/tags/themes/page/1/index.html[m
+	[32mnew file:   static/images/.gitkeep[m
+	[32mnew file:   static/posts/stephen_files/figure-html/pressure-1.png[m
+	[32mnew file:   static/stephen_files/figure-html/pressure-1.png[m
+	[32mnew file:   themes/hugo-kiera/LICENSE.md[m
+	[32mnew file:   themes/hugo-kiera/README.md[m
+	[32mnew file:   themes/hugo-kiera/archetypes/default.md[m
+	[32mnew file:   themes/hugo-kiera/archetypes/posts.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/config.toml[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/about.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/_index.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/creating-a-new-theme.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/goisforlovers.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/hugoisforlovers.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/image-content.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/migrate-from-jekyll.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/style-guide.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/static/images/.gitkeep[m
+	[32mnew file:   themes/hugo-kiera/images/screenshot.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/float-left.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/float-right.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/full-image.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/main.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/mid.png[m
+	[32mnew file:   themes/hugo-kiera/images/tn.png[m
+	[32mnew file:   themes/hugo-kiera/layouts/404.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/_default/baseof.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/_default/list.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/_default/single.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/_default/terms.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/index.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/aside.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/disqus.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/footer.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/header.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/nav.html[m
+	[32mnew file:   themes/hugo-kiera/static/css/styles.css[m
+	[32mnew file:   themes/hugo-kiera/static/js/scripts.js[m
+	[32mnew file:   themes/hugo-kiera/theme.toml[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/84E76051/console06/B143F678[m
+
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ git add .
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ git add .status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	[32mnew file:   .DS_Store[m
+	[32mnew file:   .Rhistory[m
+	[32mnew file:   .Rproj.user/84E76051/console06/B143F678[m
+	[32mnew file:   .Rproj.user/84E76051/console06/B143F678.env[m
+	[32mnew file:   .Rproj.user/84E76051/console06/INDEX001[m
+	[32mnew file:   .Rproj.user/84E76051/pcs/files-pane.pper[m
+	[32mnew file:   .Rproj.user/84E76051/pcs/source-pane.pper[m
+	[32mnew file:   .Rproj.user/84E76051/pcs/windowlayoutstate.pper[m
+	[32mnew file:   .Rproj.user/84E76051/pcs/workbench-pane.pper[m
+	[32mnew file:   .Rproj.user/84E76051/persistent-state[m
+	[32mnew file:   .Rproj.user/84E76051/rmd-outputs[m
+	[32mnew file:   .Rproj.user/84E76051/saved_source_markers[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/30706864[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/427B7BEE[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/4FFC9586[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/560A28FA[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/68F2AA82[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/805D4ACF[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/910C5248[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/929D651[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/94DBF34[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/DAB4DA7E[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/E21C66C4[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/F7C20143[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/INDEX[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/58163733[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/58163733-contents[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/85BBD0B1[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/85BBD0B1-contents[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/CA0D198F[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/CA0D198F-contents[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/lock_file[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/84E76051CD22FA3F/chunks.json[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/chunks.json[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/cobakscw9ryr5/000002.csv[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/cobakscw9ryr5/000003.error[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/cqloxzfecztj8/000002.csv[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/cqloxzfecztj8/000003.error[m
+	[32mnew file:   .Rproj.user/shared/notebooks/patch-chunk-names[m
+	[32mnew file:   .Rproj.user/shared/notebooks/paths[m
+	[32mnew file:   R4football.Rproj[m
+	[32mnew file:   config.toml[m
+	[32mnew file:   content/.DS_Store[m
+	[32mnew file:   content/post/2017-11-20-england-premier-2016-17.Rmd[m
+	[32mnew file:   content/post/2017-11-20-england-premier-2016-17.html[m
+	[32mnew file:   content/post/E0.csv[m
+	[32mnew file:   index.Rmd[m
+	[32mnew file:   public/404.html[m
+	[32mnew file:   public/about/index.html[m
+	[32mnew file:   public/categories/development/index.html[m
+	[32mnew file:   public/categories/development/index.xml[m
+	[32mnew file:   public/categories/development/page/1/index.html[m
+	[32mnew file:   public/categories/england/index.html[m
+	[32mnew file:   public/categories/england/index.xml[m
+	[32mnew file:   public/categories/england/page/1/index.html[m
+	[32mnew file:   public/categories/football/index.html[m
+	[32mnew file:   public/categories/football/index.xml[m
+	[32mnew file:   public/categories/football/page/1/index.html[m
+	[32mnew file:   public/categories/golang/index.html[m
+	[32mnew file:   public/categories/golang/index.xml[m
+	[32mnew file:   public/categories/golang/page/1/index.html[m
+	[32mnew file:   public/categories/index.html[m
+	[32mnew file:   public/categories/index.xml[m
+	[32mnew file:   public/categories/page/1/index.html[m
+	[32mnew file:   public/categories/page/2/index.html[m
+	[32mnew file:   public/categories/premier-league/index.html[m
+	[32mnew file:   public/categories/premier-league/index.xml[m
+	[32mnew file:   public/categories/premier-league/page/1/index.html[m
+	[32mnew file:   public/css/styles.css[m
+	[32mnew file:   public/images/.gitkeep[m
+	[32mnew file:   public/index.html[m
+	[32mnew file:   public/index.xml[m
+	[32mnew file:   public/js/scripts.js[m
+	[32mnew file:   public/post/2017-11-20-cars.Rmd[m
+	[32mnew file:   public/post/2017-11-20-england-premier-2016-17.Rmd[m
+	[32mnew file:   public/post/2017-11-20-stephen-testing.Rmd[m
+	[32mnew file:   public/post/2017-11-20-testing-posting.Rmd[m
+	[32mnew file:   public/post/E0.csv[m
+	[32mnew file:   public/post/cars/index.html[m
+	[32mnew file:   public/post/england-premier-2016-17/index.html[m
+	[32mnew file:   public/post/index.html[m
+	[32mnew file:   public/post/index.xml[m
+	[32mnew file:   public/post/page/1/index.html[m
+	[32mnew file:   public/post/page/2/index.html[m
+	[32mnew file:   public/post/stephen-testing/index.html[m
+	[32mnew file:   public/post/testing-posting/index.html[m
+	[32mnew file:   public/posts/creating-a-new-theme/index.html[m
+	[32mnew file:   public/posts/goisforlovers/index.html[m
+	[32mnew file:   public/posts/hugoisforlovers/index.html[m
+	[32mnew file:   public/posts/image-content/index.html[m
+	[32mnew file:   public/posts/index.html[m
+	[32mnew file:   public/posts/index.xml[m
+	[32mnew file:   public/posts/migrate-from-jekyll/index.html[m
+	[32mnew file:   public/posts/page/1/index.html[m
+	[32mnew file:   public/posts/page/2/index.html[m
+	[32mnew file:   public/posts/page/3/index.html[m
+	[32mnew file:   public/posts/stephen.Rmd[m
+	[32mnew file:   public/posts/stephen/index.html[m
+	[32mnew file:   public/posts/stephen_files/figure-html/pressure-1.png[m
+	[32mnew file:   public/posts/style-guide/index.html[m
+	[32mnew file:   public/sitemap.xml[m
+	[32mnew file:   public/stephen.Rmd[m
+	[32mnew file:   public/stephen/index.html[m
+	[32mnew file:   public/stephen_files/figure-html/pressure-1.png[m
+	[32mnew file:   public/tags/development/index.html[m
+	[32mnew file:   public/tags/development/index.xml[m
+	[32mnew file:   public/tags/development/page/1/index.html[m
+	[32mnew file:   public/tags/exploratory-analysis/index.html[m
+	[32mnew file:   public/tags/exploratory-analysis/index.xml[m
+	[32mnew file:   public/tags/exploratory-analysis/page/1/index.html[m
+	[32mnew file:   public/tags/go/index.html[m
+	[32mnew file:   public/tags/go/index.xml[m
+	[32mnew file:   public/tags/go/page/1/index.html[m
+	[32mnew file:   public/tags/golang/index.html[m
+	[32mnew file:   public/tags/golang/index.xml[m
+	[32mnew file:   public/tags/golang/page/1/index.html[m
+	[32mnew file:   public/tags/hugo/index.html[m
+	[32mnew file:   public/tags/hugo/index.xml[m
+	[32mnew file:   public/tags/hugo/page/1/index.html[m
+	[32mnew file:   public/tags/index.html[m
+	[32mnew file:   public/tags/index.xml[m
+	[32mnew file:   public/tags/page/1/index.html[m
+	[32mnew file:   public/tags/page/2/index.html[m
+	[32mnew file:   public/tags/templates/index.html[m
+	[32mnew file:   public/tags/templates/index.xml[m
+	[32mnew file:   public/tags/templates/page/1/index.html[m
+	[32mnew file:   public/tags/themes/index.html[m
+	[32mnew file:   public/tags/themes/index.xml[m
+	[32mnew file:   public/tags/themes/page/1/index.html[m
+	[32mnew file:   static/images/.gitkeep[m
+	[32mnew file:   static/posts/stephen_files/figure-html/pressure-1.png[m
+	[32mnew file:   static/stephen_files/figure-html/pressure-1.png[m
+	[32mnew file:   themes/hugo-kiera/LICENSE.md[m
+	[32mnew file:   themes/hugo-kiera/README.md[m
+	[32mnew file:   themes/hugo-kiera/archetypes/default.md[m
+	[32mnew file:   themes/hugo-kiera/archetypes/posts.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/config.toml[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/about.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/_index.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/creating-a-new-theme.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/goisforlovers.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/hugoisforlovers.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/image-content.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/migrate-from-jekyll.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/style-guide.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/static/images/.gitkeep[m
+	[32mnew file:   themes/hugo-kiera/images/screenshot.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/float-left.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/float-right.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/full-image.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/main.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/mid.png[m
+	[32mnew file:   themes/hugo-kiera/images/tn.png[m
+	[32mnew file:   themes/hugo-kiera/layouts/404.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/_default/baseof.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/_default/list.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/_default/single.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/_default/terms.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/index.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/aside.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/disqus.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/footer.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/header.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/nav.html[m
+	[32mnew file:   themes/hugo-kiera/static/css/styles.css[m
+	[32mnew file:   themes/hugo-kiera/static/js/scripts.js[m
+	[32mnew file:   themes/hugo-kiera/theme.toml[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/84E76051/console06/B143F678[m
+
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ git add  .Rproj.user/84E76051/console06/B143F678
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ git add  .Rproj.user/84E76051/console06/B143F678[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[K
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	[32mnew file:   .DS_Store[m
+	[32mnew file:   .Rhistory[m
+	[32mnew file:   .Rproj.user/84E76051/console06/B143F678[m
+	[32mnew file:   .Rproj.user/84E76051/console06/B143F678.env[m
+	[32mnew file:   .Rproj.user/84E76051/console06/INDEX001[m
+	[32mnew file:   .Rproj.user/84E76051/pcs/files-pane.pper[m
+	[32mnew file:   .Rproj.user/84E76051/pcs/source-pane.pper[m
+	[32mnew file:   .Rproj.user/84E76051/pcs/windowlayoutstate.pper[m
+	[32mnew file:   .Rproj.user/84E76051/pcs/workbench-pane.pper[m
+	[32mnew file:   .Rproj.user/84E76051/persistent-state[m
+	[32mnew file:   .Rproj.user/84E76051/rmd-outputs[m
+	[32mnew file:   .Rproj.user/84E76051/saved_source_markers[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/30706864[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/427B7BEE[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/4FFC9586[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/560A28FA[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/68F2AA82[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/805D4ACF[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/910C5248[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/929D651[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/94DBF34[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/DAB4DA7E[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/E21C66C4[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/F7C20143[m
+	[32mnew file:   .Rproj.user/84E76051/sources/prop/INDEX[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/58163733[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/58163733-contents[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/85BBD0B1[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/85BBD0B1-contents[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/CA0D198F[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/CA0D198F-contents[m
+	[32mnew file:   .Rproj.user/84E76051/sources/s-3071CD32/lock_file[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/84E76051CD22FA3F/chunks.json[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/chunks.json[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/cobakscw9ryr5/000002.csv[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/cobakscw9ryr5/000003.error[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/cqloxzfecztj8/000002.csv[m
+	[32mnew file:   .Rproj.user/shared/notebooks/B2BE3F75-2017-11-20-england-premier-2016-17/1/s/cqloxzfecztj8/000003.error[m
+	[32mnew file:   .Rproj.user/shared/notebooks/patch-chunk-names[m
+	[32mnew file:   .Rproj.user/shared/notebooks/paths[m
+	[32mnew file:   R4football.Rproj[m
+	[32mnew file:   config.toml[m
+	[32mnew file:   content/.DS_Store[m
+	[32mnew file:   content/post/2017-11-20-england-premier-2016-17.Rmd[m
+	[32mnew file:   content/post/2017-11-20-england-premier-2016-17.html[m
+	[32mnew file:   content/post/E0.csv[m
+	[32mnew file:   index.Rmd[m
+	[32mnew file:   public/404.html[m
+	[32mnew file:   public/about/index.html[m
+	[32mnew file:   public/categories/development/index.html[m
+	[32mnew file:   public/categories/development/index.xml[m
+	[32mnew file:   public/categories/development/page/1/index.html[m
+	[32mnew file:   public/categories/england/index.html[m
+	[32mnew file:   public/categories/england/index.xml[m
+	[32mnew file:   public/categories/england/page/1/index.html[m
+	[32mnew file:   public/categories/football/index.html[m
+	[32mnew file:   public/categories/football/index.xml[m
+	[32mnew file:   public/categories/football/page/1/index.html[m
+	[32mnew file:   public/categories/golang/index.html[m
+	[32mnew file:   public/categories/golang/index.xml[m
+	[32mnew file:   public/categories/golang/page/1/index.html[m
+	[32mnew file:   public/categories/index.html[m
+	[32mnew file:   public/categories/index.xml[m
+	[32mnew file:   public/categories/page/1/index.html[m
+	[32mnew file:   public/categories/page/2/index.html[m
+	[32mnew file:   public/categories/premier-league/index.html[m
+	[32mnew file:   public/categories/premier-league/index.xml[m
+	[32mnew file:   public/categories/premier-league/page/1/index.html[m
+	[32mnew file:   public/css/styles.css[m
+	[32mnew file:   public/images/.gitkeep[m
+	[32mnew file:   public/index.html[m
+	[32mnew file:   public/index.xml[m
+	[32mnew file:   public/js/scripts.js[m
+	[32mnew file:   public/post/2017-11-20-cars.Rmd[m
+	[32mnew file:   public/post/2017-11-20-england-premier-2016-17.Rmd[m
+	[32mnew file:   public/post/2017-11-20-stephen-testing.Rmd[m
+	[32mnew file:   public/post/2017-11-20-testing-posting.Rmd[m
+	[32mnew file:   public/post/E0.csv[m
+	[32mnew file:   public/post/cars/index.html[m
+	[32mnew file:   public/post/england-premier-2016-17/index.html[m
+	[32mnew file:   public/post/index.html[m
+	[32mnew file:   public/post/index.xml[m
+	[32mnew file:   public/post/page/1/index.html[m
+	[32mnew file:   public/post/page/2/index.html[m
+	[32mnew file:   public/post/stephen-testing/index.html[m
+	[32mnew file:   public/post/testing-posting/index.html[m
+	[32mnew file:   public/posts/creating-a-new-theme/index.html[m
+	[32mnew file:   public/posts/goisforlovers/index.html[m
+	[32mnew file:   public/posts/hugoisforlovers/index.html[m
+	[32mnew file:   public/posts/image-content/index.html[m
+	[32mnew file:   public/posts/index.html[m
+	[32mnew file:   public/posts/index.xml[m
+	[32mnew file:   public/posts/migrate-from-jekyll/index.html[m
+	[32mnew file:   public/posts/page/1/index.html[m
+	[32mnew file:   public/posts/page/2/index.html[m
+	[32mnew file:   public/posts/page/3/index.html[m
+	[32mnew file:   public/posts/stephen.Rmd[m
+	[32mnew file:   public/posts/stephen/index.html[m
+	[32mnew file:   public/posts/stephen_files/figure-html/pressure-1.png[m
+	[32mnew file:   public/posts/style-guide/index.html[m
+	[32mnew file:   public/sitemap.xml[m
+	[32mnew file:   public/stephen.Rmd[m
+	[32mnew file:   public/stephen/index.html[m
+	[32mnew file:   public/stephen_files/figure-html/pressure-1.png[m
+	[32mnew file:   public/tags/development/index.html[m
+	[32mnew file:   public/tags/development/index.xml[m
+	[32mnew file:   public/tags/development/page/1/index.html[m
+	[32mnew file:   public/tags/exploratory-analysis/index.html[m
+	[32mnew file:   public/tags/exploratory-analysis/index.xml[m
+	[32mnew file:   public/tags/exploratory-analysis/page/1/index.html[m
+	[32mnew file:   public/tags/go/index.html[m
+	[32mnew file:   public/tags/go/index.xml[m
+	[32mnew file:   public/tags/go/page/1/index.html[m
+	[32mnew file:   public/tags/golang/index.html[m
+	[32mnew file:   public/tags/golang/index.xml[m
+	[32mnew file:   public/tags/golang/page/1/index.html[m
+	[32mnew file:   public/tags/hugo/index.html[m
+	[32mnew file:   public/tags/hugo/index.xml[m
+	[32mnew file:   public/tags/hugo/page/1/index.html[m
+	[32mnew file:   public/tags/index.html[m
+	[32mnew file:   public/tags/index.xml[m
+	[32mnew file:   public/tags/page/1/index.html[m
+	[32mnew file:   public/tags/page/2/index.html[m
+	[32mnew file:   public/tags/templates/index.html[m
+	[32mnew file:   public/tags/templates/index.xml[m
+	[32mnew file:   public/tags/templates/page/1/index.html[m
+	[32mnew file:   public/tags/themes/index.html[m
+	[32mnew file:   public/tags/themes/index.xml[m
+	[32mnew file:   public/tags/themes/page/1/index.html[m
+	[32mnew file:   static/images/.gitkeep[m
+	[32mnew file:   static/posts/stephen_files/figure-html/pressure-1.png[m
+	[32mnew file:   static/stephen_files/figure-html/pressure-1.png[m
+	[32mnew file:   themes/hugo-kiera/LICENSE.md[m
+	[32mnew file:   themes/hugo-kiera/README.md[m
+	[32mnew file:   themes/hugo-kiera/archetypes/default.md[m
+	[32mnew file:   themes/hugo-kiera/archetypes/posts.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/config.toml[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/about.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/_index.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/creating-a-new-theme.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/goisforlovers.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/hugoisforlovers.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/image-content.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/migrate-from-jekyll.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/content/posts/style-guide.md[m
+	[32mnew file:   themes/hugo-kiera/exampleSite/static/images/.gitkeep[m
+	[32mnew file:   themes/hugo-kiera/images/screenshot.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/float-left.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/float-right.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/full-image.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/main.png[m
+	[32mnew file:   themes/hugo-kiera/images/screenshots/mid.png[m
+	[32mnew file:   themes/hugo-kiera/images/tn.png[m
+	[32mnew file:   themes/hugo-kiera/layouts/404.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/_default/baseof.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/_default/list.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/_default/single.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/_default/terms.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/index.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/aside.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/disqus.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/footer.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/header.html[m
+	[32mnew file:   themes/hugo-kiera/layouts/partials/nav.html[m
+	[32mnew file:   themes/hugo-kiera/static/css/styles.css[m
+	[32mnew file:   themes/hugo-kiera/static/js/scripts.js[m
+	[32mnew file:   themes/hugo-kiera/theme.toml[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/84E76051/console06/B143F678[m
+
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ echo $PATH
+/Applications/anaconda/bin:/Applications/anaconda/bin:/opt/local/bin:/opt/local/sbin:/Users/macdonas/anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Applications/MAMP/bin/php/php5.6.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin:/opt/local/bin:bin/msys-ssh-1000-18
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ which git
+/usr/local/bin/git
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ Sys.which "git"
+bash: Sys.which: command not found
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ Sys.which "git"("git"
+bash: syntax error near unexpected token `"git"'
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ Sys.which ("git"[C)[1P("git")[C[C[C[C[C[C[C
+bash: syntax error near unexpected token `"git"'
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ Sys.which("git")[K[K[K[K[K[Kgit)
+bash: syntax error near unexpected token `git'
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ Sys.which("git")
+bash: syntax error near unexpected token `"git"'
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ git --version
+git version 2.7.0
+]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ 

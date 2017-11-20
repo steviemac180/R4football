@@ -1,0 +1,10 @@
+---
+title: 'testing posting '
+author: Stephen MacDonald
+date: '2017-11-20'
+slug: testing-posting
+categories: []
+tags: []
+---
+
+lets see where this goes

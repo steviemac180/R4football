@@ -1,0 +1,25 @@
+baseurl = "/"
+title = "R4football"
+copyright = "Copyright &copy; 2017 - Stephen MacDonald"
+canonifyurls = true
+theme = "hugo-kiera"
+
+paginate = 10
+
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+
+[author]
+    name = "Stephen MacDonald"
+    github = ""
+    gitlab = ""
+    linkedin = ""
+    facebook = ""
+    twitter = ""
+    instagram = ""
+
+[params]
+    tagline = "Using R to analyse football statistics. A site with no frills just straight up analysis"
+
+

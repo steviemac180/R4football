@@ -1,0 +1,46 @@
+"0","library(tidyverse)"
+"2","Rendering content/post/2017-11-20-england-premier-2016-17.Rmd
+"
+"2","Loading tidyverse: ggplot2
+Loading tidyverse: tibble
+Loading tidyverse: tidyr
+Loading tidyverse: readr
+Loading tidyverse: purrr
+Loading tidyverse: dplyr
+"
+"2","Conflicts with tidy packages ----------------------------------------------
+"
+"2","filter(): dplyr, stats
+lag():    dplyr, stats
+"
+"2","Quitting from lines 16-18 (2017-11-20-england-premier-2016-17.Rmd) 
+"
+"2","Error: 'E0.csv' does not exist in current working directory ('/Users/macdonas/Desktop/R4football/content/post').
+"
+"2","In addition: Warning messages:
+1: package 'tidyverse' was built under R version 3.3.2 
+2: Installed Rcpp (0.12.9.3) different from Rcpp used to build dplyr (0.12.11).
+Please reinstall dplyr to avoid random crashes or undefined behavior. 
+3: package 'ggplot2' was built under R version 3.3.2 
+4: package 'tibble' was built under R version 3.3.2 
+5: package 'tidyr' was built under R version 3.3.2 
+6: package 'readr' was built under R version 3.3.2 
+7: package 'dplyr' was built under R version 3.3.2 
+"
+"2","Execution halted
+"
+"1","<"
+"1","simpleError"
+"1"," in "
+"1","render_page(f)"
+"1",": "
+"1","Failed to render 'content/post/2017-11-20-england-premier-2016-17.Rmd'"
+"1",">
+"
+"2","
+* Retrying in 8 seconds...
+
+"
+"0","read_csv(""E0.csv"")"
+"2","Error: 'E0.csv' does not exist in current working directory ('/Users/macdonas/Desktop/R4football/content/post').
+"

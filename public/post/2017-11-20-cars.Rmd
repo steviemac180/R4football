@@ -1,0 +1,14 @@
+---
+title: Cars
+author: Stephen MacDonald
+date: '2017-11-20'
+slug: cars
+categories: []
+tags: []
+---
+
+you must always trytoput a couple of intorductory lines in as the code doesnt look good on the from page. you must always trytoput a couple of intorductory lines in as the code doesnt look good on the from page. you must always trytoput a couple of intorductory lines in as the code doesnt look good on the from page. you must always trytoput a couple of intorductory lines in as the code doesnt look good on the from page.
+
+```{r}
+summary(cars)
+```
