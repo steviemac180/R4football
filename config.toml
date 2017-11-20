@@ -2,7 +2,7 @@ baseurl = "/"
 title = "R4football"
 copyright = "Copyright &copy; 2017 - Stephen MacDonald"
 canonifyurls = true
-theme = "hugo-kiera"
+theme = "hugo-xmin-master"
 
 paginate = 10
 
