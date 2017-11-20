@@ -782,4 +782,14 @@ bash: syntax error near unexpected token `git'
 bash: syntax error near unexpected token `"git"'
 ]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ git --version
 git version 2.7.0
+git --versionSys.which("git")[2Pgit)"git") ("git"[1P"git"[6Pwhich gitecho $PATHgit statusadd  .Rproj.user/84E76051/console06/B143F678[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[K
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/84E76051/console06/B143F678[m
+	[31mmodified:   .Rproj.user/84E76051/console06/INDEX001[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
 ]0;~/Desktop/R4footballstephens-MBP:R4football macdonas$ 
